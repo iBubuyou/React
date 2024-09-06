@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "productName": "เฟรนฟราย",
+      "unitPrice": "140",
+      "thumbnail": "/images/product/4.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "เค้ก 3 ชั้น",
+      "unitPrice": "190",
+      "thumbnail": "/images/product/5.jpg"
+    },
+    {
+      "productName": "ไก่ทอดหาดใหญ่",
+      "unitPrice": "90",
+      "thumbnail": "/images/product/2.jpg",
+      "id": 7
+    },
+    {
+      "productName": "สลัดเพื่อสุขภาพ",
+      "unitPrice": "120",
+      "thumbnail": "/images/product/1.jpg",
+      "id": 8
+    },
+    {
+      "productName": "บิงซู หวานชื่นใจ",
+      "thumbnail": "/images/product/3.jpg",
+      "unitPrice": "169",
+      "id": 9
+    },
+    {
+      "productName": "กาแฟมอคค่า",
+      "unitPrice": "50",
+      "thumbnail": "/images/product/6.jpg",
+      "id": 10
+    }
+  ],
+  "orders": [
+    {
+      "orderedDate": "2023-03-21T13:56:16.726Z",
+      "totalPrice": 169,
+      "orders": [
+        {
+          "product": {
+            "productName": "บิงซู หวานชื่นใจ",
+            "thumbnail": "/images/product/3.jpg",
+            "unitPrice": "169",
+            "id": 9
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "orderedDate": "2023-03-22T05:56:46.621Z",
+      "totalPrice": 289,
+      "orders": [
+        {
+          "product": {
+            "productName": "บิงซู หวานชื่นใจ",
+            "thumbnail": "/images/product/3.jpg",
+            "unitPrice": "169",
+            "id": 9
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "productName": "สลัดเพื่อสุขภาพ",
+            "unitPrice": "120",
+            "thumbnail": "/images/product/1.jpg",
+            "id": 8
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "orderedDate": "2023-03-22T07:34:46.674Z",
+      "totalPrice": 190,
+      "orders": [
+        {
+          "product": {
+            "id": 5,
+            "productName": "เค้ก 3 ชั้น",
+            "unitPrice": "190",
+            "thumbnail": "/images/product/5.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
